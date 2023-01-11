@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+
+#content{
+    display: flex;
+    height: 100%;
+}
+
+img{
+    width: 90%;
+    margin: 15px;
+    height: 70%;
+}
+
+#leftcol{
+    width: 50%;
+    background-color: blue;
+}
+
+#rightcol{
+    background-color: green;
+    width: 50%;
+}
